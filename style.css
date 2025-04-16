@@ -113,10 +113,10 @@ body {
 
 .info {
     margin: auto;
-    width: 420px;
+    width: 500px;
     text-align: center;
     font-size: 13px;
-    text-align: left;
+    text-align: center;
     font-weight: bold;
     color: dimgray;
     margin-bottom: 10px;

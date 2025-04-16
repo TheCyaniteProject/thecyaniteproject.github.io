@@ -6,7 +6,7 @@
     <meta content="Kieee's Portal Hub" property="og:title" />
     <meta content="Just some queer trash that does nerd shit." property="og:description" />
     <meta content="https://thecyaniteproject.github.io/" property="og:url" />
-    <meta content="https://avatars.githubusercontent.com/u/26806429" property="og:image" />
+    <meta content="/resources/chipi.gif" property="og:image" />
     <meta content="#FFB6C1" data-react-helmet="true" name="theme-color" />
 
     <link rel="stylesheet" href="style.css">
@@ -81,11 +81,16 @@
                     </div>
                 </div>
 
-                <p class="info">
+                <p class="info" id="info">
                     Time since last gay thought | 0 days &#183; 0 minutes &#183; 18 seconds ago
                 </p>
             </div>
         </div>
+        <script>
+            const info = document.getElementById("info");
+            // TODO add function
+            info.textContent = "Time since last gay thought | 0 days & 0 minutes & 17 seconds ago";
+        </script>
 
     </body>
 </html>
